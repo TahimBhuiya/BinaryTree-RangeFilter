@@ -7,7 +7,7 @@ using namespace std;
 
 
 struct TreeNode {
-    int val;          
-    TreeNode *left;   
-    TreeNode *right
+    int val;           // Value stored in the node
+    TreeNode *left;    // Pointer to left child
+    TreeNode *right;   // Pointer to right child
 };
