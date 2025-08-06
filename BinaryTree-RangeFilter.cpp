@@ -10,4 +10,6 @@ struct TreeNode {
     int val;           // Value stored in the node
     TreeNode *left;    // Pointer to left child
     TreeNode *right;   // Pointer to right child
+
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
