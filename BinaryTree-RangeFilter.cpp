@@ -4,3 +4,6 @@
 #include <queue>     // For queue container (used in BFS)
 #include <limits>    // For numeric limits (used in input validation)
 using namespace std; 
+
+
+struct TreeNode {}
