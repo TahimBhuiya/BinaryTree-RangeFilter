@@ -5,7 +5,7 @@
 #include <limits>    // For numeric limits (used in input validation)
 using namespace std; 
 
-
+// Definition of Tree Node
 struct TreeNode {
     int val;           // Value stored in the node
     TreeNode *left;    // Pointer to left child
