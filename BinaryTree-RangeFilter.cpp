@@ -16,4 +16,5 @@ struct TreeNode {
 
 void BFS(TreeNode* root) {
     if (!root) return; // If tree is empty, nothing to print
+    queue<TreeNode*> q;
 }
