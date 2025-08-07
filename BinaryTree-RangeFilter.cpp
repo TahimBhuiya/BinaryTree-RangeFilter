@@ -17,4 +17,8 @@ struct TreeNode {
 void BFS(TreeNode* root) {
     if (!root) return; // If tree is empty, nothing to print
     queue<TreeNode*> q; // Queue to hold nodes for BFS
+
+    q.push(root);       // Start with the root node
+
+    while (!q.empty()) {
 }
