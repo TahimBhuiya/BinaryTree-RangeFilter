@@ -22,5 +22,9 @@ void BFS(TreeNode* root) {
 
     while (!q.empty()) {
         int levelSize = q.size(); // Number of nodes at current level
+
+        for (int i = 0; i < levelSize; ++i) {
+            TreeNode* node = q.front();
+            q.pop();
     }
 }
