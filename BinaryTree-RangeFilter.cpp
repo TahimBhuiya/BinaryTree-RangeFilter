@@ -29,5 +29,8 @@ void BFS(TreeNode* root) {
             q.pop();
 
             cout << node->val << " "; // Print current node's value
+
+            if (node->left) q.push(node->left);
+            if (node->right) q.push(node->right);
     }
 }
