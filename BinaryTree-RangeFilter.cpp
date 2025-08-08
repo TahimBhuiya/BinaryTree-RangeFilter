@@ -29,9 +29,11 @@ void BFS(TreeNode* root) {
             q.pop();
 
             cout << node->val << " "; // Print current node's value
-            
+
             // Push children into queue if they exist
             if (node->left) q.push(node->left);
             if (node->right) q.push(node->right);
+        }
+        cout << endl; 
     }
 }
