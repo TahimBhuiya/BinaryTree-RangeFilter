@@ -28,6 +28,6 @@ void BFS(TreeNode* root) {
             TreeNode* node = q.front();
             q.pop();
 
-            cout << node->val << " ";
+            cout << node->val << " "; // Print current node's value
     }
 }
