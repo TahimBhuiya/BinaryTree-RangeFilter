@@ -27,5 +27,7 @@ void BFS(TreeNode* root) {
         for (int i = 0; i < levelSize; ++i) {
             TreeNode* node = q.front();
             q.pop();
+
+            cout << node->val << " ";
     }
 }
