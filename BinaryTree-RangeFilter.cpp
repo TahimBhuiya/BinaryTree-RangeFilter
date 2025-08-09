@@ -39,6 +39,6 @@ void BFS(TreeNode* root) {
 }
 
 TreeNode* removeOutsideRange(TreeNode* root, int minVal, int maxVal) {
-    if (!root) return nullptr; 
+    if (!root) return nullptr; // Base case: null node
 
 }
