@@ -52,4 +52,10 @@ TreeNode* removeOutsideRange(TreeNode* root, int minVal, int maxVal) {
         return rightChild;
     }
 
+    if (root->val > maxVal) {
+        TreeNode* leftChild = root->left;
+        delete root; 
+        return leftChild;
+    }
+
 }
