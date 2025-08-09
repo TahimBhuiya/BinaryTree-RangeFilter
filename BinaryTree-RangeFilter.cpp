@@ -59,4 +59,7 @@ TreeNode* removeOutsideRange(TreeNode* root, int minVal, int maxVal) {
         return leftChild;
     }
 
+    // Node is within range; keep it
+    return root;
+
 }
