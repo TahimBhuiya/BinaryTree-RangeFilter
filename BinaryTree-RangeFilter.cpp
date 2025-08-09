@@ -41,6 +41,7 @@ void BFS(TreeNode* root) {
 TreeNode* removeOutsideRange(TreeNode* root, int minVal, int maxVal) {
     if (!root) return nullptr; // Base case: null node
     
+    // Recursively process left and right subtrees    
     root->left = removeOutsideRange(root->left, minVal, maxVal);
     root->right = removeOutsideRange(root->right, minVal, maxVal);
 }
