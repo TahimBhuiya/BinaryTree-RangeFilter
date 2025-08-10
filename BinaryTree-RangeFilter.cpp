@@ -75,7 +75,7 @@ int readValidInteger(const string& prompt) {
         } 
         else {
             cout << "Please enter a valid integer.\n";
-            cin.clear(); 
+            cin.clear(); // Clear error flag
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
         }
     }
