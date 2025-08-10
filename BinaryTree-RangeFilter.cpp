@@ -81,3 +81,6 @@ int readValidInteger(const string& prompt) {
     }
     return value;
 }
+
+
+void readValidRange(int& minVal, int& maxVal) {}
