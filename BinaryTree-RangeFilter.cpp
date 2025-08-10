@@ -69,7 +69,7 @@ int readValidInteger(const string& prompt) {
     int value;
     while (true) {
         cout << prompt;
-        if (cin >> value) { 
+        if (cin >> value) { // Successfully read integer
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             break;
         }
