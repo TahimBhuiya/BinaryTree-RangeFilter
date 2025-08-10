@@ -79,4 +79,5 @@ int readValidInteger(const string& prompt) {
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
         }
     }
+    return value;
 }
