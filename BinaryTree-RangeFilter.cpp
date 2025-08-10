@@ -65,4 +65,12 @@ TreeNode* removeOutsideRange(TreeNode* root, int minVal, int maxVal) {
 }
 
 // Reads a valid integer from the user with prompt
-int readValidInteger(const string& prompt) {}
+int readValidInteger(const string& prompt) {
+    int value;
+    while (true) {
+        cout << prompt;
+        if (cin >> value) { 
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            break;
+        }
+}
