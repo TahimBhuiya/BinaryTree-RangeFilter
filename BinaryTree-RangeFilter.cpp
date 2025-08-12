@@ -94,7 +94,7 @@ void readValidRange(int& minVal, int& maxVal) {
 
 
 int main() {
-        // Manually construct example binary tree:
+    // Manually construct example binary tree:
     //         8
     //       /   \
     //      5     11
@@ -112,4 +112,7 @@ int main() {
     root->left->right->left = new TreeNode(6);
     root->right->left->right = new TreeNode(10);
     root->right->right->right = new TreeNode(13);
+
+    cout << "Original Tree:" << endl;
+    BFS(root);
 }
