@@ -89,4 +89,5 @@ void readValidRange(int& minVal, int& maxVal) {
         maxVal = readValidInteger("Enter the maximum value of the range: ");
 
         if (minVal < maxVal) break;
+        cout << "The minimum value must be less than the maximum value. Try again.\n";
 }
