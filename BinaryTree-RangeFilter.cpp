@@ -117,6 +117,7 @@ int main() {
     cout << "Original Tree:" << endl;
     BFS(root);
 
+    // Read valid range from user
     int minVal, maxVal;
     readValidRange(minVal, maxVal);
 }
