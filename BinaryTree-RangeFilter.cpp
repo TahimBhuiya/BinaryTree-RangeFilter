@@ -90,4 +90,7 @@ void readValidRange(int& minVal, int& maxVal) {
 
         if (minVal < maxVal) break;
         cout << "The minimum value must be less than the maximum value. Try again.\n";
-}
+}}
+
+
+int main() {}
