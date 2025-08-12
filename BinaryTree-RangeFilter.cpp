@@ -116,4 +116,7 @@ int main() {
     // Display original tree
     cout << "Original Tree:" << endl;
     BFS(root);
+
+    int minVal, maxVal;
+    readValidRange(minVal, maxVal);
 }
