@@ -94,6 +94,14 @@ void readValidRange(int& minVal, int& maxVal) {
 
 
 int main() {
+        // Manually construct example binary tree:
+    //         8
+    //       /   \
+    //      5     11
+    //     / \   /  \
+    //    2   7 9   12
+    //       /    \    \
+    //      6     10    13
     TreeNode* root = new TreeNode(8);
     root->left = new TreeNode(5);
     root->right = new TreeNode(11);
