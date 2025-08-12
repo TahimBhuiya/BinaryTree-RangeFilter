@@ -87,4 +87,6 @@ void readValidRange(int& minVal, int& maxVal) {
     while (true) {
         minVal = readValidInteger("Enter the minimum value of the range: ");
         maxVal = readValidInteger("Enter the maximum value of the range: ");
+
+        if (minVal < maxVal) break;
 }
