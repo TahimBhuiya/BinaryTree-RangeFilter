@@ -61,7 +61,6 @@ TreeNode* removeOutsideRange(TreeNode* root, int minVal, int maxVal) {
 
     // Node is within range; keep it
     return root;
-
 }
 
 // Reads a valid integer from the user with prompt
@@ -82,7 +81,6 @@ int readValidInteger(const string& prompt) {
     return value;
 }
 
-
 void readValidRange(int& minVal, int& maxVal) {
     while (true) {
         minVal = readValidInteger("Enter the minimum value of the range: ");
@@ -91,7 +89,6 @@ void readValidRange(int& minVal, int& maxVal) {
         if (minVal < maxVal) break;
         cout << "The minimum value must be less than the maximum value. Try again.\n";
 }}
-
 
 int main() {
     // Manually construct example binary tree:
