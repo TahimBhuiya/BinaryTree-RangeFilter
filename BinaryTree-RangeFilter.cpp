@@ -120,6 +120,7 @@ int main() {
     // Read valid range from user
     int minVal, maxVal;
     readValidRange(minVal, maxVal);
-
+    
+    // Remove nodes outside the given range
     root = removeOutsideRange(root, minVal, maxVal);
 }
