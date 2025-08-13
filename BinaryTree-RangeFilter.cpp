@@ -128,4 +128,6 @@ int main() {
     cout << "\nTree after removing nodes outside the range [" 
          << minVal << ", " << maxVal << "]:" << endl;
     BFS(root);
+
+    return 0;
 }
