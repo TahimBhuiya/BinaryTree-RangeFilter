@@ -123,7 +123,8 @@ int main() {
 
     // Remove nodes outside the given range
     root = removeOutsideRange(root, minVal, maxVal);
-
+    
+    // Display modified tree
     cout << "\nTree after removing nodes outside the range [" 
          << minVal << ", " << maxVal << "]:" << endl;
     BFS(root);
