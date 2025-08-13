@@ -120,4 +120,6 @@ int main() {
     // Read valid range from user
     int minVal, maxVal;
     readValidRange(minVal, maxVal);
+
+    root = removeOutsideRange(root, minVal, maxVal);
 }
