@@ -10,3 +10,5 @@ This C++ program demonstrates:
 It constructs a sample binary tree, displays it, prompts the user for a valid `[minVal, maxVal]` range, prunes nodes outside the range, and displays the updated tree.
 
 ---
+
+## 🖥 Features
