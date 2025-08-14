@@ -16,3 +16,4 @@ It constructs a sample binary tree, displays it, prompts the user for a valid `[
 - **BFS Traversal**: Prints tree nodes level-by-level.
 - **Range Filtering**: Removes nodes with values `< minVal` or `> maxVal`.
 - **Input Validation**: Ensures numeric input and valid range (`minVal < maxVal`).
+- **Dynamic Memory Management**: Frees memory for removed nodes.
