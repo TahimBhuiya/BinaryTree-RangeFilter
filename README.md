@@ -12,3 +12,5 @@ It constructs a sample binary tree, displays it, prompts the user for a valid `[
 ---
 
 ## 🖥 Features
+
+- **BFS Traversal**: Prints tree nodes level-by-level.
