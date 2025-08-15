@@ -37,3 +37,7 @@ Tree after removing nodes outside the range [6, 11]:
 8
 7 11
 6 9 10
+
+---
+
+## ⚙ How It Works
