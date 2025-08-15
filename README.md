@@ -21,3 +21,10 @@ It constructs a sample binary tree, displays it, prompts the user for a valid `[
 ---
 
 ## 📋 Example Run
+
+**Input:**
+Original Tree:
+8
+5 11
+2 7 9 12
+6 10 13
