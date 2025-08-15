@@ -28,3 +28,5 @@ Original Tree:
 5 11
 2 7 9 12
 6 10 13
+
+Enter the minimum value of the range: 6
