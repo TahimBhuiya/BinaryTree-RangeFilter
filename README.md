@@ -19,3 +19,5 @@ It constructs a sample binary tree, displays it, prompts the user for a valid `[
 - **Dynamic Memory Management**: Frees memory for removed nodes.
 
 ---
+
+## 📋 Example Run
