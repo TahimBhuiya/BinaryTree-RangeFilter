@@ -33,3 +33,7 @@ Enter the minimum value of the range: 6
 Enter the maximum value of the range: 11
 
 **Output:**
+Tree after removing nodes outside the range [6, 11]:
+8
+7 11
+6 9 10
