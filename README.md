@@ -31,3 +31,5 @@ Original Tree:
 
 Enter the minimum value of the range: 6
 Enter the maximum value of the range: 11
+
+**Output:**
