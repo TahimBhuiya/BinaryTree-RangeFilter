@@ -43,6 +43,7 @@ Tree after removing nodes outside the range [6, 11]:
 ## ⚙ How It Works
 
 1. **Tree Construction**
+   - A sample binary tree is manually created in `main()`.
 2. **Display Original Tree**
 3. **Read User Input**
 4. **Prune Tree**
