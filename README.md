@@ -46,3 +46,4 @@ Tree after removing nodes outside the range [6, 11]:
 2. **Display Original Tree**
 3. **Read User Input**
 4. **Prune Tree**
+5. **Display Updated Tree**
