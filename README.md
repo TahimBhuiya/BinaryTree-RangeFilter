@@ -49,4 +49,5 @@ Tree after removing nodes outside the range [6, 11]:
 3. **Read User Input**
    - `readValidRange(minVal, maxVal)` ensures a valid range is entered.
 4. **Prune Tree**
+   - `removeOutsideRange(root, minVal, maxVal)` recursively removes out-of-range nodes.
 5. **Display Updated Tree**
