@@ -51,3 +51,4 @@ Tree after removing nodes outside the range [6, 11]:
 4. **Prune Tree**
    - `removeOutsideRange(root, minVal, maxVal)` recursively removes out-of-range nodes.
 5. **Display Updated Tree**
+   - The pruned tree is printed again using BFS.
