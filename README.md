@@ -44,3 +44,4 @@ Tree after removing nodes outside the range [6, 11]:
 
 1. **Tree Construction**
 2. **Display Original Tree**
+3. **Read User Input**
