@@ -59,4 +59,6 @@ Tree after removing nodes outside the range [6, 11]:
 
 ### You can run this code in two ways:
 
-1️⃣ Using a local C++ compiler
+### 1️⃣ Using a local C++ compiler
+
+### 2️⃣ Using an online C++ compiler
