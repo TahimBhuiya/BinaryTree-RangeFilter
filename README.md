@@ -61,4 +61,6 @@ Tree after removing nodes outside the range [6, 11]:
 
 ### 1️⃣ Using a local C++ compiler
 
+- Save the code as `main.cpp` or name it to your liking
+
 ### 2️⃣ Using an online C++ compiler
